@@ -2,6 +2,10 @@
 config for nvim
 
 # Tips (og trix)
+Når noe du tror du har fiksa, ikke funker likevel 
+```
+rm *.aux
+```
 
 Babel kneler pga manglende sprog:
 ```
