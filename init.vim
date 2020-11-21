@@ -18,6 +18,9 @@ Plug 'lervag/vimtex'
 let g:tex_flavor = 'latex'
 
 call plug#end()
+
+let mapleader = "," 
+
 " Setter opp deoplete til å bruke autotabs fra vimtex
 call deoplete#custom#var('omni', 'input_patterns', {
       \ 'tex': g:vimtex#re#deoplete
